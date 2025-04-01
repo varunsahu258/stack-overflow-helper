@@ -1,0 +1,9 @@
+src/
+
+test/
+tests/
+*.test.ts
+*.test.js
+
+*.ts
+*.map
