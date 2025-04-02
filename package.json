@@ -17,9 +17,43 @@
   ],
   "activationEvents": [
     "onStartupFinished",
-    "onLanguage:*",
-    "onCommand:stack-overflow-helper.searchErrors"
-    ],
+  "onLanguage:javascript",
+  "onLanguage:python",
+  "onLanguage:java",
+  "onLanguage:csharp",
+  "onLanguage:cpp",
+  "onLanguage:html",
+  "onLanguage:css",
+  "onLanguage:typescript",
+  "onLanguage:ruby",
+  "onLanguage:php",
+  "onLanguage:go",
+  "onLanguage:swift",
+  "onLanguage:kotlin",
+  "onLanguage:rust",
+  "onLanguage:dart",
+  "onLanguage:json",
+  "onLanguage:yaml",
+  "onLanguage:xml",
+  "onLanguage:markdown",
+  "onLanguage:latex",
+  "onLanguage:sql",
+  "onLanguage:powershell",
+  "onLanguage:bash",
+  "onLanguage:scala",
+  "onLanguage:groovy",
+  "onLanguage:typescriptreact",
+  "onLanguage:javascriptreact",
+  "onLanguage:vue",
+  "onLanguage:handlebars",
+  "onLanguage:less",
+  "onLanguage:sass",
+  "onLanguage:scss",
+  "onLanguage:graphql",
+  "onLanguage:plaintext",
+  "onLanguage:sh",
+  "onLanguage:ini"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
@@ -45,9 +79,15 @@
   "dependencies": {
     "axios": "^1.8.4"
   },
-
   "homepage": "https://github.com/varunsahu258/stack-overflow-extension",
   "bugs": {
     "url": "https://github.com/varunsahu258/stack-overflow-extension/issues"
-  }
+  },
+  "tags": [
+    "Stack Overflow",
+    "error handling",
+    "solution finder",
+    "VS Code",
+    "programming"
+  ]
 }
